@@ -1,0 +1,48 @@
+body{
+    background-image: url(mountain-magic-hour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+section{
+    min-height: 100pv;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+#focus-body{
+    margin-top: 50px;
+    font-size: 50px;
+}
+#count{
+    font-weight: 900;
+    font-size: 60px;
+}
+audio{
+    display: none;
+}
+#count-button{
+    color: white;
+    background-color: transparent;
+    margin-bottom: 25px;
+    border: 3px solid white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+
+}
+#count-button :hover{
+    background-color: rgb(255, 255, 255, 0.1);
+}
+#volume-input{
+    margin: 30px;
+}
+.icon-buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    gap: 50px;
+}
